@@ -1,0 +1,129 @@
+
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+
+
+}
+body{
+background-color:#AAACFA;
+		background-image:url(pexels-pixabay-416920.jpg);
+	background-size:cover;
+height: 100vh;
+	background-position:center;
+	background-repeat:no-repeat; 
+	background-blend-mode: multiply;
+	display:flex;
+	align-items: center ;
+	justify-content:center;
+	font-family:sans-serif;
+}
+.container{
+display:flex;
+    background-color:#f1f1f1;
+    width:80vh;
+display:flex;
+flex-direction: column;
+border-radius:10px;
+margin-bottom:0px;
+
+
+}
+.m{
+		font-family:sans-serif;
+	color:#333;
+	font-weight: bold;
+	font-size:15px;
+	
+	padding-bottom:10px;
+}
+.search-btn{
+	display:flex;
+	align-items: center;
+	justify-content: space-around;
+	padding:20px 0px;
+}
+.button{
+	background-color:#575BEC;
+    color:#f1f1f1;
+    font-size:25px; 
+    padding:12px 36px;
+    border-radius: 30px;
+    letter-spacing: 1.4px;
+    transition: 0.1s ;
+    border:none;
+    cursor:pointer;
+
+}
+.button:hover{
+	transform: scale(0.99)
+}
+.button:active{
+	background-color:#4347E8;
+}
+.input{
+	width:50vh;
+	border:none;
+	font-size: 20px;
+	border-bottom:2px #575BEC solid;
+	padding:10px 5px;
+	color:#444;
+	border-radius: 4px;
+
+
+}
+.input:focus{
+outline-color:white; 
+
+}
+
+
+.first-section{
+display: flex;
+flex-direction:column;
+align-items:center;
+justify-content:center;
+width:100%; 
+font-weight:bold;
+font-size:35px;
+color:#991717;
+text-transform: uppercase; 
+}
+.result img{
+	width:220px;
+	height: 170px;
+	border-radius:5px;
+	margin:7px 0;
+	transition: 0.1s ease;
+}
+.result img:hover{
+	transform: scale(1.009)
+}
+.result span{
+	color:#991717;
+	font-size:17px;
+
+}
+.result h2{
+	font-family:sans-serif;
+	color:#333;
+	font-size:15px;
+
+	margin-left: 30px;
+	padding-bottom:10px;
+}
+.second-section{
+	position:relative;
+	bottom:10px;
+		margin-bottom:10px;
+}
+#error{
+	color:#991717;
+	font-size:20px;
+	position: relative ; 
+	transform: translateY(-50%,-50%);
+	width:100vh;
+	margin-left: 100px;
+
+}
